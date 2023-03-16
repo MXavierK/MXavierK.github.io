@@ -1,0 +1,20 @@
+.img-galeria{
+    margin-bottom: 10px;
+    padding: 1px;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.imgfeautre{
+    padding: 1px;
+    box-shadow: 0 8px 20px -1px rgba(0, 0, 0, .6);
+    border-radius: 15px;
+}
+
+.btn-detalles{
+  /* margin-top:50px; */
+  position: absolute;
+  top: 440px;
+  float: right;
+    
+}

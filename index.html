@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventos Falu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!-- Animación de alerts de SweetAlerts2 -->
+    <link rel="stylesheet" href="/aos-master/dist/aos.css"> <!-- animate onscroll -->
+    <link href="/lightbox2-2.11.4/dist/css/lightbox.css" rel="stylesheet">  <!-- lightbox para hacer zoom a imagenes al dar click -->
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <div class="container">
+
+  <body class="d-flex flex-column min-vh-100">
+
+    <!-- Inicia el encabezado -->
+    <nav class="navbar navbar-expand-md" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+  <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">EVENTOS FALU</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link">INICIO</a></li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link">ACERCA</a></li> -->
+          <li class="nav-item"><a href="/Galeria/galeria.html" class="nav-link">GALERIA</a></li>
+          <li class="nav-item"><a href="/Ubicacion/ubicacion.html" class="nav-link">UBICACION</a></li>
+          <li class="nav-item"><a href="/Cotizaciones/cotizaciones.html" class="nav-link">COTIZA</a></li>
+        </ul>
+      </header>
+    </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin del encabezado -->
+
+    <!-- Inicio de Carrusel -->
+    <div class="container">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators" >
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="/recursos/Piñatas_coloridas.jpg" width="100%" height="500px">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Piñatas</h1>
+              <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/recursos/XV.jpg" width="100%" height="500px">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Quinceaños</h1>
+              <!-- <p><a class="btn btn-lg btn-primary" href="#">Ver más</a></p> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="/recursos/eventos.jpg" width="100%" height="500px">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Y mas...</h1>
+              <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <!-- Fin del carrusel -->
+    
+    <div class="container marketing">
+      <div class="row">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col" data-aos="fade-up">
+            <div class="card shadow-sm" style="height: 500px;">
+              <img src="/recursos/fiesta-de-cumpleaños.jpg" width="100%"  height="280px">
+              <div class="card-body">
+                <h5>Fiestas de cumpleaños/Piñatas</h5>
+                <p class="card-text">Sabemos que los cumpleaños merecen celebrarse, para piñatas o tu festejo de cumpleaños.</p>
+                    <button id="btnFiestas" type="button" class="btn btn-primary btn-detalles">Ver detalles</button>                
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up">
+            <div class="card shadow-sm" style="height: 500px;">
+              <img src="/recursos/bautizo.png" width="100%" height="280px">
+              <div class="card-body">
+                <h5>Bautizos</h5>
+                <p class="card-text">¡Celebremos juntos el bautizo de tu bebe! Contamos con lo necesario.</p>
+                    <button type="button" class="btn btn-primary btn-detalles">Ver detalles</button>                
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up">
+            <div class="card shadow-sm" style="height: 500px;">
+              <img src="/recursos/quinceaños.png" width="100%" height="280px">
+              <div class="card-body">
+                <h5>Quinceaños</h5>
+                <p class="card-text">Por que los 15 años no son cualquier cumpleaños, festejalo como se debe.</p>
+                    <button type="button" class="btn btn-primary btn-detalles">Ver detalles</button>                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col" data-aos="fade-up">
+            <div class="card shadow-sm" style="height: 500px;">
+              <img src="/recursos/bodas.jpg" width="100%" height="280px">
+              <div class="card-body">
+                <h5>Bodas</h5>
+                <p class="card-text">Para celebrar ese día tan especial en el que te casas. ¡Tu boda lo merece!</p>
+                    <button type="button" class="btn btn-primary btn-detalles">Ver detalles</button>                
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up">
+            <div class="card shadow-sm" style="height: 500px;">
+              <img src="/recursos/posadas.png" width="100%" height="280px">
+              <div class="card-body">
+                <h5>Posadas</h5>
+                <p class="card-text">¿Nadie quizó poner la casa? Haz tu posada con nosotros.</p>
+                    <button type="button" class="btn btn-primary btn-detalles">Ver detalles</button>                
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up">
+            <div class="card shadow-sm" style="height: 500px;">
+              <img src="/recursos/otros-eventos.jpg" width="100%" height="280px">
+              <div class="card-body">
+                <h5>Otros</h5>
+                <p class="card-text">Nuestro local peude ser utilizado para el evento que tengas en mente, cuentanos!</p>
+                    <button type="button" class="btn btn-primary btn-detalles">Ver detalles</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div><!-- /.row -->
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7" data-aos="fade-right">
+          <h2 class="featurette-heading fw-normal lh-1">Nuestro local</h2>
+          <p class="lead">Eventos Falu, es un nuevo proyecto el cual ofrece un exclusivo local para eventos que cuenta con un espacio amplio y amigable con precios accecibles.</p>
+        </div>
+        <div class="col-md-5" data-aos="fade-left">
+          <img src="/recursos/Templete.jpeg" width="100%" height="450vh" class="imgfeautre">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2" data-aos="fade-left">
+          <h2 class="featurette-heading fw-normal lh-1">Servicios</h2>
+          <p class="lead">Eventos Falu, esta hábilitado para el uso de eventos como Piñatas, Bautizos, Quinceaños, Pasteladas, Fiestas de cumpleaños, Bodas, entre otros...</p>
+        </div>
+        <div class="col-md-5 order-md-1" data-aos="fade-right">
+          <img src="/recursos/Servicios.jpg" width="100%" height="500vh" class="imgfeautre">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7" data-aos="fade-right">
+          <h2 class="featurette-heading fw-normal lh-1">Galeria</h2>
+          <p class="lead">Nuestros clientes nos comparten sus experiencias y fotografías de sus eventos. <br> <a href="/Eventos/eventos.html">Ver más</a></p>
+        </div>
+        <div class="col-md-5">
+          <a href="/recursos/noche1.jpg" data-lightbox="Galeria"><img class="img-galeria" src="/recursos/noche1.jpg" width="150px" height="150px" data-aos="zoom-in"></a>
+          <a href="/recursos/XV-1.jpg" data-lightbox="Galeria"><img class="img-galeria" src="/recursos/XV-1.jpg" width="150px" height="150px" data-aos="zoom-in"></a>
+          <a href="/recursos/mesas2.jpg" data-lightbox="Galeria"><img class="img-galeria" src="/recursos/mesas2.jpg" width="150px" height="150px" data-aos="zoom-in"></a>
+          <a href="/recursos/pastel.jpg" data-lightbox="Galeria"><img class="img-galeria" src="/recursos/pastel.jpg" width="150px" height="150px" data-aos="zoom-in"></a>
+          <a href="/recursos/mesas.jpg" data-lightbox="Galeria"><img class="img-galeria" src="/recursos/mesas.jpg" width="150px" height="150px" data-aos="zoom-in"></a>
+          <a href="/recursos/tecnobanda.jpg" data-lightbox="Galeria"><img class="img-galeria" src="/recursos/tecnobanda.jpg" width="150px" height="150px" data-aos="zoom-in"></a>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <!-- /END THE FEATURETTES -->
+  
+    </div>
+  </body>
+  <!-- Inicio del footer -->
+  <div class="container d-flex flex-column">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top mt-auto">
+      <div class="col mb-3">
+          <img src="/recursos/Logo_falu.jpeg" alt="logo" style="width: 100px;"><svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <p class="text-muted">Eventos Falu © 2023</p>
+      </div>
+  
+      <div class="col mb-3">
+  
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Dirección</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="/Ubicacion/ubicacion.html" class="nav-link p-0 text-muted">Av. De Graneros 88</a></li>
+          <li class="nav-item mb-2"><a href="/Ubicacion/ubicacion.html" class="nav-link p-0 text-muted">83296</a></li>
+          <li class="nav-item mb-2"><a href="/Ubicacion/ubicacion.html" class="nav-link p-0 text-muted">Hermosillo Son, México.</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Contacto</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="https://wa.me/526621438972?" target="_blank" class="nav-link p-0 text-muted">Celular: 6621-72-60-42</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Correo: Eventos_Falu@gmail.com</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Redes Sociales</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="https://www.facebook.com/profile.php?id=100086505923503&mibextid=LQQJ4d" target="_blank" class="nav-link p-0 text-muted">Fb: Eventos Falu</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram:</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <!-- Fin del footer -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script src="/aos-master/dist/aos.js"></script> <!-- animate onscroll -->
+<script>
+  AOS.init(); //Inicializamos animate onscroll
+</script>
+<script src="/lightbox2-2.11.4/dist/js/lightbox.js"></script>  <!-- lightbox para hacer zoom a imagenes al dar click -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/main.js"></script>
+</html>

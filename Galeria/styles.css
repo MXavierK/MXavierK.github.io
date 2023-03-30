@@ -1,0 +1,15 @@
+.img-galeria {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.imagenes-galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
+    border-radius: 15px;
+}
+
+body {
+    background: #ADA996;
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+}
